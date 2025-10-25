@@ -64,7 +64,5 @@ public class Main {
         var lyudi = 94 + otvet;
         var bolshe = chasi / lyudi;
         System.out.println("Если в компании работает " + lyudi + " человек, то всего " + bolshe + " часов работы может быть поделено между сотрудниками");
-
-
     }
 }
