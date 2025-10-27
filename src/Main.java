@@ -44,9 +44,8 @@ public class Main {
 
         System.out.println("Задание 6 ");
 
-        var habib = 78.2;
-        var konor = 82.7;
-        System.out.println(konor - habib);
+        var habib = 78.2 % 82.7;
+        System.out.println(habib);
 
         System.out.println("Задание 7 ");
         var ost = 82.7 % 78.2;
