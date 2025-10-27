@@ -1,24 +1,33 @@
 public class Main1 {
     public static void main(String[] args) {
-//        System.out.print("Задача 1");
-//
-//        int a= 25;
-//        byte b = 100;
-//        short c = 1000;
-//        long d = 1000000000L;
-//        float e = 99.99f;
-//        double f = 3.14159265359;
-//        String userName = "Саша";
-//
-//        System.out.print("Задача 2");
 
-//        double addel = 27.12;
-//        long sfings = 987678965549;
-//        float sher = 2,786f;
-//        char mig = 569;
-//        short lof = -159;
-//        short dayming = 27897;
-//        byte tim = 67;
+        System.out.println("Задача 1 ");
+
+        int a= 25;
+        byte b = 100;
+        short c = 1000;
+        long d = 1000000000L;
+        float e = 99.99f;
+        double f = 3.14159265359;
+        String userName = "Саша";
+
+        System.out.println("Задача 2 ");
+
+        double addel = 27.12;
+        long sfings = 987678965549L;
+        float sher = 2.786f;
+        short mig = 569;
+        short lof = -159;
+        int dayming = 27897;
+        byte tim = 67;
+
+        System.out.println("naddel: " + addel);
+        System.out.println("sfings: " + sfings);
+        System.out.println("sher: " + sher);
+        System.out.println("mig: " + mig);
+        System.out.println("lof: " + lof);
+        System.out.println("dayming: " + dayming);
+        System.out.println("tim: " + tim);
 
         System.out.println("Задача 3 ");
 
@@ -48,109 +57,122 @@ public class Main1 {
         int paints = 120;
         int white = 2;
         int brown = 4;
-        System.out.println(white+brown+ " банок красок");
-        System.out.println("В школе " +paints/(white+brown)+ " классов");
+        int classes = paints/(white+brown);
+
+        System.out.println((white + brown) + " банок красок на один класс");
+        System.out.println("В школе " + classes + " классов");
+
+        System.out.println(white * classes + " банок белых красок для всех классов");
+        System.out.println(brown * classes + " банок коричневых красок для всех классов");
+        System.out.println((white * classes) + (brown * classes) + " банок красок всего");
 
 
-        int scool = 20;
-        System.out.println(white*scool+ " банок белых красок");
-        System.out.println(brown*scool+ " банок коричневых красок");
-        System.out.println((white*scool)+((brown*scool))+ " банок красок");
 
         System.out.println("Задача 6 ");
 
         int banana = 80;
-        int quantity = 5;
-        System.out.println("Один банан весит 80гр а пять бананов весит - " +(banana*quantity)+ " гр");
+        int bananaQuantity = 5;
+        int bananaTotal = banana * bananaQuantity;
+        System.out.println("Один банан весит " + banana + "гр, а пять бананов весит - " + bananaTotal + " гр");
 
-        int milc = 200;
-        double milcGrams =  1.05;
-        System.out.println("Молоко вести - " +(milcGrams*milc)+ " гр");
+        int milkMl = 200;
+        double milkGramsPerMl = 1.05;
+        double milkTotal = milkGramsPerMl * milkMl;
+        System.out.println("Молоко весит - " + milkTotal + " гр");
 
-        int plombir = 2;
-        int plombirGrams = 100;
-        System.out.println("Мороженое-пломбир — 2 брикета, весит - " +(plombir*plombirGrams)+ " гр");
+        int iceCreamQuantity = 2;
+        int iceCreamGrams = 100;
+        int iceCreamTotal = iceCreamQuantity * iceCreamGrams;
+        System.out.println("Мороженое-пломбир — " + iceCreamQuantity + " брикета, весит - " + iceCreamTotal + " гр");
 
-        int eggs = 4;
-        int eggsGrams = 70;
-        System.out.println("Яйца сырые – 4 яйца, весит - " + (eggs*eggsGrams)+ " гр");
-        System.out.println((banana*quantity)+(milcGrams*milc)+(plombir*plombirGrams)+(eggs*eggsGrams));
-        double itog = 1090.0;
-        double kg = 1000.0;
-        System.out.println("Итог спортзавтрак " +(itog/kg)+ " кг");
+        int eggsQuantity = 4;
+        int eggGrams = 70;
+        int eggsTotal = eggsQuantity * eggGrams;
+        System.out.println("Яйца сырые – " + eggsQuantity + " яйца, весит - " + eggsTotal + " гр");
+
+        double totalGrams = bananaTotal + milkTotal + iceCreamTotal + eggsTotal;
+        System.out.println("Общий вес завтрака: " + totalGrams + " гр");
+
+        double totalKg = totalGrams / 1000.0;
+        System.out.println("Итог спортзавтрака: " + totalKg + " кг");
 
         System.out.println("Задача 7 ");
-        double reset = 7;
-        double kgGr = 1000;
-        System.out.println("Нужно сбросить " +(kgGr*reset)+ " гр");
 
-        int reset1 = 7000;
-        int weight = 250;
-        System.out.println("За " +(reset1/weight)+ " дней нужно сбросить вес");
+        double targetWeightLossKg = 7.0;
+        double gramsPerKg = 1000;
+        double targetWeightLossGrams = targetWeightLossKg * gramsPerKg;
+        System.out.println("Нужно сбросить " + targetWeightLossGrams + " гр");
 
-        int days = 28;
-        double grKg = 1000;
-        System.out.println("За 28 дней спорсмен теряет вес на " +((weight*days)/grKg)+ " кг");
+        int weightLossPerDay1 = 250;
+        int daysNeeded1 = (int) (targetWeightLossGrams / weightLossPerDay1);
+        System.out.println("За " + daysNeeded1 + " дней нужно сбросить вес");
 
-        System.out.println("А если спорсмен будет теряет вес на 500гр в день: ");
+        int daysPeriod = 28;
+        double weightLossInPeriodKg = (weightLossPerDay1 * daysPeriod) / gramsPerKg;
+        System.out.println("За " + daysPeriod + " дней спортсмен теряет вес на " + weightLossInPeriodKg + " кг");
 
-        int weight1 = 500;
-        System.out.println("То спорсмен теряет вес за " +(reset1/weight1)+ " дней");
+        System.out.println("А если спортсмен будет терять вес на 500гр в день: ");
+
+        int weightLossPerDay2 = 500;
+        int daysNeeded2 = (int) (targetWeightLossGrams / weightLossPerDay2);
+        System.out.println("То спортсмен теряет вес за " + daysNeeded2 + " дней");
 
         System.out.println("Задача 8 ");
-        System.out.println(" Миша, зарпалта в месяц 67760 руб");
+
+        System.out.println("Миша, зарплата в месяц 67760 руб");
 
         double misha = 67760;
         double promotion = 10;
-        System.out.println("Увиличения зарплаты на " +(misha/promotion)+ " руб");
+        double mishaIncrease = misha / promotion;
+        System.out.println("Увеличение зарплаты на " + mishaIncrease + " руб");
 
-        double salary = 6776.0;
-        System.out.println("Расчет новой зарплаты повышение на 10% составляет " +(misha+salary)+ " руб");
+        double mishaNewSalary = misha + mishaIncrease;
+        System.out.println("Расчет новой зарплаты повышение на 10% составляет " + mishaNewSalary + " руб");
 
         double year = 12;
-        System.out.println("Расчет годового дохода до повышения " +(misha*year)+ " руб");
+        double mishaOldYear = misha * year;
+        double mishaNewYear = mishaNewSalary * year;
+        double mishaYearDiff = mishaNewYear - mishaOldYear;
+        System.out.println("Расчет годового дохода до повышения " + mishaOldYear + " руб");
+        System.out.println("Расчет годового дохода после повышения " + mishaNewYear + " руб");
+        System.out.println("Разница в годовом доходе: " + mishaYearDiff + " руб");
 
-        double zp = 74536.0;
-        System.out.println("Расчет годового дохода после повышения " + (zp*year)+ " руб");
+        System.out.println("\nДенис, зарплата в месяц 83690 руб");
 
-        System.out.println(" Денис, зарпалта в месяц 83690 руб");
+        double denis = 83690;
+        double denisIncrease = denis / promotion;
+        System.out.println("Увеличение зарплаты на " + denisIncrease + " руб");
 
-        double denis = 83690.0;
-        System.out.println("Увиличения зарплаты на " +(denis/promotion)+ " руб");
-        double salary1 = 8369.0;
-        System.out.println("Расчет новой зарплаты повышение на 10% составляет " +(denis+salary1)+ " руб");
-        double zp1 = 92059.0;
-        System.out.println("Расчет годового дохода до повышения " +(denis*year)+ " руб");
-        System.out.println("Расчет годового дохода после повышения " + (zp1*year)+ " руб");
+        double denisNewSalary = denis + denisIncrease;
+        System.out.println("Расчет новой зарплаты повышение на 10% составляет " + denisNewSalary + " руб");
 
-        System.out.println(" Крестина, зарпалта в месяц 76230 руб");
+        double denisOldYear = denis * year;
+        double denisNewYear = denisNewSalary * year;
+        double denisYearDiff = denisNewYear - denisOldYear;
+        System.out.println("Расчет годового дохода до повышения " + denisOldYear + " руб");
+        System.out.println("Расчет годового дохода после повышения " + denisNewYear + " руб");
+        System.out.println("Разница в годовом доходе: " + denisYearDiff + " руб");
+
+        System.out.println("\nКристина, зарплата в месяц 76230 руб");
+
         double krestina = 76230;
-        System.out.println("Увиличения зарплаты на " +(krestina/promotion)+ " руб");
-        double salary2 = 7623.0;
-        System.out.println("Расчет новой зарплаты повышение на 10% составляет " +(salary2+krestina)+ " руб");
-        double zp2 = 83853.0;
-        System.out.println("Расчет годового дохода до повышения " +(krestina*year)+ " руб");
-        System.out.println("Расчет годового дохода после повышения " + (zp2*year)+ " руб");
-        System.out.println("ИТОГ");
-        System.out.println("Маша теперь получает 74536.00 рублей. Годовой доход вырос на 81312.00 рублей");
-        System.out.println("Денис теперь получает 92059.00 рублей. Годовой доход вырос на 1104708.00 рублей.");
-        System.out.println("Кристина теперь получает 83312.00 рублей. Годовой доход вырос на 1006236.00 рублей");
+        double krestinaIncrease = krestina / promotion;
+        System.out.println("Увеличение зарплаты на " + krestinaIncrease + " руб");
 
+        double krestinaNewSalary = krestina + krestinaIncrease;
+        System.out.println("Расчет новой зарплаты повышение на 10% составляет " + krestinaNewSalary + " руб");
 
+        double krestinaOldYear = krestina * year;
+        double krestinaNewYear = krestinaNewSalary * year;
+        double krestinaYearDiff = krestinaNewYear - krestinaOldYear;
+        System.out.println("Расчет годового дохода до повышения " + krestinaOldYear + " руб");
+        System.out.println("Расчет годового дохода после повышения " + krestinaNewYear + " руб");
+        System.out.println("Разница в годовом доходе: " + krestinaYearDiff + " руб");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+        System.out.println("\nИТОГ");
+        System.out.println("Миша теперь получает " + mishaNewSalary + " рублей. Годовой доход вырос на " + mishaYearDiff + " рублей");
+        System.out.println("Денис теперь получает " + denisNewSalary + " рублей. Годовой доход вырос на " + denisYearDiff + " рублей");
+        System.out.println("Кристина теперь получает " + krestinaNewSalary + " рублей. Годовой доход вырос на " + krestinaYearDiff + " рублей");
     }
 
 }
