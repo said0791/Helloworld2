@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aac1ee0-63da-44ac-90ef-187acdfcb192" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helloworld2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-    </list>
+    <list default="true" id="1aac1ee0-63da-44ac-90ef-187acdfcb192" name="Changes" comment="Povtor D/Z" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +31,12 @@
       </list>
     </option>
     <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="Helloworld2" />
@@ -48,22 +50,22 @@
     &quot;assignee&quot;: &quot;said0791&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/said0791/Helloworld2.git&quot;,
-    &quot;accountId&quot;: &quot;09e23c45-d859-4aa4-a976-24cfe298b0b2&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/said0791/DZ3.git",
+    "accountId": "09e23c45-d859-4aa4-a976-24cfe298b0b2"
   },
-  &quot;recentNewPullRequestHead&quot;: {
-    &quot;server&quot;: {
-      &quot;useHttp&quot;: false,
-      &quot;host&quot;: &quot;github.com&quot;,
-      &quot;port&quot;: null,
-      &quot;suffix&quot;: null
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
     },
-    &quot;owner&quot;: &quot;said0791&quot;,
-    &quot;repository&quot;: &quot;Helloworld2&quot;
+    "owner": "said0791",
+    "repository": "Helloworld2"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -77,6 +79,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Main.executor": "Run",
     "Application.Main1.executor": "Run",
     "Application.main1.executor": "Run",
@@ -84,6 +87,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/saidn/IdeaProjects/Helloworld2",
@@ -318,7 +322,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761656602382</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Povtor D/Z">
+      <option name="closed" value="true" />
+      <created>1761660250162</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1761660250162</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Povtor D/Z">
+      <option name="closed" value="true" />
+      <created>1761660508746</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1761660508746</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -333,7 +353,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="DZ4Ready" />
     <MESSAGE value="DZ5(Peremenie)" />
     <MESSAGE value="DZ5Peremenie" />
     <MESSAGE value="DZ5var" />
@@ -358,6 +377,7 @@
     <MESSAGE value="ДЗ повтор 7" />
     <MESSAGE value="ДЗ повтор 2" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="Povtor D/Z" />
+    <option name="LAST_COMMIT_MESSAGE" value="Povtor D/Z" />
   </component>
 </project>
