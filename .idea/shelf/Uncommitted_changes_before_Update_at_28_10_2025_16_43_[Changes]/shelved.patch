@@ -1,0 +1,68 @@
+Index: .gitignore
+===================================================================
+diff --git a/.gitignore b/.gitignore
+deleted file mode 100644
+--- a/.gitignore	(revision 53e5b7499d64191bb0db90cdff07ad8a0a9090db)
++++ /dev/null	(revision 53e5b7499d64191bb0db90cdff07ad8a0a9090db)
+@@ -1,30 +0,0 @@
+-### IntelliJ IDEA ###
+-out/
+-!**/src/main/**/out/
+-!**/src/test/**/out/
+-
+-### Eclipse ###
+-.apt_generated
+-.classpath
+-.factorypath
+-.project
+-.settings
+-.springBeans
+-.sts4-cache
+-bin/
+-!**/src/main/**/bin/
+-!**/src/test/**/bin/
+-
+-### NetBeans ###
+-/nbproject/private/
+-/nbbuild/
+-/dist/
+-/nbdist/
+-/.nb-gradle/
+-
+-### VS Code ###
+-.vscode/
+-
+-### Mac OS ###
+-.DS_Store
+-/.idea/
+Index: README.md
+===================================================================
+diff --git a/README.md b/README.md
+deleted file mode 100644
+--- a/README.md	(revision 53e5b7499d64191bb0db90cdff07ad8a0a9090db)
++++ /dev/null	(revision 53e5b7499d64191bb0db90cdff07ad8a0a9090db)
+@@ -1,5 +0,0 @@
+-# helloworld3
+-# helloworld3
+-# helloworld3
+-# helloworld3
+-# helloworld3
+Index: Helloworld2.iml
+===================================================================
+diff --git a/Helloworld2.iml b/Helloworld2.iml
+deleted file mode 100644
+--- a/Helloworld2.iml	(revision 53e5b7499d64191bb0db90cdff07ad8a0a9090db)
++++ /dev/null	(revision 53e5b7499d64191bb0db90cdff07ad8a0a9090db)
+@@ -1,11 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="JAVA_MODULE" version="4">
+-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+-    <exclude-output />
+-    <content url="file://$MODULE_DIR$">
+-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+-    </content>
+-    <orderEntry type="inheritedJdk" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file

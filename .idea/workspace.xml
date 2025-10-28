@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1aac1ee0-63da-44ac-90ef-187acdfcb192" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Helloworld2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+      <option value="repository" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="said0791 &lt;saidnazarov983@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Helloworld2" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;said0791&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/said0791/Helloworld2.git&quot;,
+    &quot;accountId&quot;: &quot;09e23c45-d859-4aa4-a976-24cfe298b0b2&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;said0791&quot;,
+    &quot;repository&quot;: &quot;Helloworld2&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="32vRaqggSMMbWIpOGvgLRtrmD02" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Main1.executor": "Run",
+    "Application.main1.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/saidn/IdeaProjects/Helloworld2",
+    "onboarding.tips.debug.path": "C:/Users/saidn/IdeaProjects/Helloworld2/src/Main.java"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Helloworld2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Helloworld2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Helloworld2" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1aac1ee0-63da-44ac-90ef-187acdfcb192" name="Changes" comment="" />
+      <created>1758299133151</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758299133151</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1758299516377</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758299516377</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Домашняя работа 1">
+      <option name="closed" value="true" />
+      <created>1758299886458</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758299886458</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Домашняя работа 1">
+      <option name="closed" value="true" />
+      <created>1759753386641</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759753386641</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Домашняя работа 1">
+      <option name="closed" value="true" />
+      <created>1759753446956</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759753446956</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'origin/homework' into homework">
+      <option name="closed" value="true" />
+      <created>1759753590395</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1759753590395</updated>
+    </task>
+    <task id="LOCAL-00006" summary="DZ4">
+      <option name="closed" value="true" />
+      <created>1761043079573</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1761043079573</updated>
+    </task>
+    <task id="LOCAL-00007" summary="DZ4Ready">
+      <option name="closed" value="true" />
+      <created>1761043705382</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1761043705382</updated>
+    </task>
+    <task id="LOCAL-00008" summary="DZ5(Peremenie)">
+      <option name="closed" value="true" />
+      <created>1761395100874</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1761395100874</updated>
+    </task>
+    <task id="LOCAL-00009" summary="DZ5Peremenie">
+      <option name="closed" value="true" />
+      <created>1761395636175</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1761395636175</updated>
+    </task>
+    <task id="LOCAL-00010" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1761414403173</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1761414403173</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1761415405715</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1761415405715</updated>
+    </task>
+    <task id="LOCAL-00012" summary="DZ6">
+      <option name="closed" value="true" />
+      <created>1761415423917</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1761415423917</updated>
+    </task>
+    <task id="LOCAL-00013" summary="DZ0606">
+      <option name="closed" value="true" />
+      <created>1761415622058</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1761415622058</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Переменные">
+      <option name="closed" value="true" />
+      <created>1761416086328</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1761416086328</updated>
+    </task>
+    <task id="LOCAL-00015" summary="123456">
+      <option name="closed" value="true" />
+      <created>1761416463392</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1761416463392</updated>
+    </task>
+    <task id="LOCAL-00016" summary="папирус">
+      <option name="closed" value="true" />
+      <created>1761416740092</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1761416740092</updated>
+    </task>
+    <task id="LOCAL-00017" summary="papirus">
+      <option name="closed" value="true" />
+      <created>1761416784369</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1761416784369</updated>
+    </task>
+    <task id="LOCAL-00018" summary="PovtorDZ">
+      <option name="closed" value="true" />
+      <created>1761582585264</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1761582585264</updated>
+    </task>
+    <task id="LOCAL-00019" summary="PovtorDZ1">
+      <option name="closed" value="true" />
+      <created>1761582809097</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1761582809097</updated>
+    </task>
+    <task id="LOCAL-00020" summary="повтор DZ2">
+      <option name="closed" value="true" />
+      <created>1761644683618</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1761644683618</updated>
+    </task>
+    <task id="LOCAL-00021" summary="повтор DZ2">
+      <option name="closed" value="true" />
+      <created>1761644703870</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1761644703870</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Повтор ДЗ3">
+      <option name="closed" value="true" />
+      <created>1761644919505</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1761644919505</updated>
+    </task>
+    <task id="LOCAL-00023" summary="ДЗ повтор 7">
+      <option name="closed" value="true" />
+      <created>1761653151899</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1761653151899</updated>
+    </task>
+    <task id="LOCAL-00024" summary="ДЗ повтор 7">
+      <option name="closed" value="true" />
+      <created>1761654610735</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1761654610735</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1761656602382</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1761656602382</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DZ4Ready" />
+    <MESSAGE value="DZ5(Peremenie)" />
+    <MESSAGE value="DZ5Peremenie" />
+    <MESSAGE value="DZ5var" />
+    <MESSAGE value="first commit" />
+    <MESSAGE value="DZ6" />
+    <MESSAGE value="DZ12345" />
+    <MESSAGE value="DZ0606" />
+    <MESSAGE value="Переменные" />
+    <MESSAGE value="Переменные1" />
+    <MESSAGE value="Peremenie1" />
+    <MESSAGE value="123456" />
+    <MESSAGE value="25/10/2025" />
+    <MESSAGE value="папирус" />
+    <MESSAGE value="papirus" />
+    <MESSAGE value="PovtorDZ 1" />
+    <MESSAGE value="PovtorDZ" />
+    <MESSAGE value="PovtorDZ1" />
+    <MESSAGE value="PovtorDZ2" />
+    <MESSAGE value="повтор DZ2" />
+    <MESSAGE value="повтор DZ3" />
+    <MESSAGE value="Повтор ДЗ3" />
+    <MESSAGE value="ДЗ повтор 7" />
+    <MESSAGE value="ДЗ повтор 2" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
+  </component>
+</project>
